@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meram | Portfolio</title>
+
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>PORTFOLIO</h1>
+        <div class="content">
+            <span data-link="home" class="active">Home</span>
+            <span data-link="about">About</span>
+            <span data-link="projects">Projects</span>
+            <span data-link="contact">Contact</span>
+        </div>
+        <div class="mode-toggle">
+            <i id="modeIcon" class="fa-solid fa-moon"></i>
+        </div>
+    </div>
+
+    <div class="Home" id="home">
+        <div class="hero-section">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="img/image1.jpg" alt="Meram">
+                </div>
+                <div class="hero-text">
+                    <h2>Hi, I'm Meram Amr</h2>
+                    <p>Level 3 Computer Science Student | Java & Python Developer | AI & Web Enthusiast</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-section" id="about">
+        <div class="about-box">
+            <div class="about-left">
+                <h2>About Me</h2>
+                <p>I am a Level 3 Computer Science student passionate about software development, algorithms, and AI.
+                I enjoy building practical projects in Java, Python, and Web technologies, and solving challenging problems
+                through competitive programming.</p>
+            </div>
+            <div class="about-right">
+                <h2>Skills</h2>
+                <h3>Programming Languages</h3>
+                <p>Java | Python | C | PHP | JavaScript</p>
+                <h3>Web Development</h3>
+                <p>HTML | CSS | JS | PHP</p>
+                <h3>AI & Machine Learning</h3>
+                <p>Regression | Image Classification</p>
+                <h3>Tools & Platforms</h3>
+                <p>Git | GitHub | VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-box">
+                <h3>Shortest Path Finder</h3>
+                <p class="project-desc">Calculates the shortest path between nodes for multiple requests in a grid using Java (Dijkstra & BFS).</p>
+                <p class="project-tech">Java | Dijkstra | BFS</p>
+                <a href="https://github.com/meram-amr/findingShortestPath.git" target="_blank">GitHub</a>
+            </div>
+            <div class="project-box">
+                <h3>Bin Packing Solver</h3>
+                <p class="project-desc">AI solves bin packing problems efficiently using Backtracking and Culture algorithms.</p>
+                <p class="project-tech">Python | Algorithms</p>
+                <a href="https://github.com/meram-amr/binBacking.git" target="_blank">GitHub</a>
+            </div>
+            <div class="project-box">
+                <h3>File Handling System</h3>
+                <p class="project-desc">Java program that manages multiple files, generates random content, and provides real-time statistics.</p>
+                <p class="project-tech">Java | File I/O | Multithreading</p>
+                <a href="https://github.com/meram-amr/fileHandling.git" target="_blank">GitHub</a>
+            </div>
+            <div class="project-box">
+                <h3>Mood Music Website</h3>
+                <p class="project-desc">A responsive website to browse and play songs, designed with HTML & CSS.</p>
+                <p class="project-tech">HTML | CSS</p>
+                <a href="https://meram-amr.github.io/mood/" target="_blank">GitHub</a>
+            </div>
+            <div class="project-box">
+                <h3>Zayna Accessories Brand</h3>
+                <p class="project-desc">Branding & online showcase for Zayna Accessories with modern design and interactive interface.</p>
+                <p class="project-tech">HTML | CSS | JavaScript | PHP | MySQL</p>
+                <a href="http://zanya.atwebpages.com/login.php" target="_blank">Zayna</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="contact-title">Contact Me</h2>
+        <div class="contact-box">
+            <div class="contact-left">
+                <p>Feel free to reach out for collaborations, internships, or just to say hi!</p>
+            </div>
+            <div class="contact-right">
+                <p>Email: <a href="mailto:meramamr8@gmail.com">meramamr8@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/meram-amr-7302a73a4" target="_blank">linkedin.com/in/meramamr</a></p>
+                <p>GitHub: <a href="https://github.com/meram-amr" target="_blank">github.com/meram-amr</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
