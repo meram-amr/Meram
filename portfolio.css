@@ -270,7 +270,7 @@ body.dark-mode {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
@@ -284,6 +284,11 @@ body.dark-mode {
     padding: 25px 20px;
     transition: transform 0.3s, box-shadow 0.3s, background 0.5s ease;
     text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .dark-mode .project-box {
@@ -318,7 +323,14 @@ body.dark-mode {
     margin-bottom: 8px;
 }
 
-.project-box a {
+.project-box .links {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.project-box .links a {
     font-size: 14px;
     color: #d5d5d5;
     text-decoration: underline;
@@ -370,9 +382,9 @@ body.dark-mode {
 }
 
 .contact-box {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    align-items: flex-start;
     gap: 50px;
     max-width: 1000px;
     margin: 0 auto;
@@ -405,8 +417,10 @@ body.dark-mode {
 .contact-right {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    margin-top: 20px;
+    line-height: 25px;
     gap: 10px;
+    text-align: center;
 }
 
 .contact-right p {
